@@ -63,7 +63,7 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
-			{socialLinks.twitter && (
+			{socialLinks.mail && (
 				<Button
 					className="btn-icon-only rounded-circle"
 					color="facebook"
