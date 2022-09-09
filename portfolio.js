@@ -16,9 +16,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
 	instagram: "https://www.instagram.com/aniket.gawade.45/",
-	twitter: "https://twitter.com/1hanzla100",
 	github: "https://github.com/Aniket-gawade",
 	linkedin: "https://www.linkedin.com/in/aniket-gawade/",
 	mail: "mailto:apgawade822@gmailcom"
