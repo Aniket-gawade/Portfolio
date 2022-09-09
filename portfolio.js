@@ -345,7 +345,7 @@ export const seoData = {
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Hanzla Tauqeer",
 	image: "https://avatars.githubusercontent.com/u/60391607?v=4",
-	url: "https://developer-portfolio-1hanzla100.vercel.app",
+	url: "https://aniket-gawade-portfolio.herokuapp.com/",
 	keywords: [
 		"Aniket",
 		"Aniket Gawade",
