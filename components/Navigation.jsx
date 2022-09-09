@@ -81,7 +81,7 @@ const Navigation = () => {
 								className="align-items-lg-center ml-lg-auto"
 								navbar
 							>
-								{socialLinks.facebook && (
+								{/* {socialLinks.facebook && (
 									<NavItem>
 										<NavLink
 											rel="noopener"
@@ -96,7 +96,7 @@ const Navigation = () => {
 											</span>
 										</NavLink>
 									</NavItem>
-								)}
+								)} */}
 								{socialLinks.instagram && (
 									<NavItem>
 										<NavLink
@@ -145,18 +145,18 @@ const Navigation = () => {
 										</NavLink>
 									</NavItem>
 								)}
-								{socialLinks.twitter && (
+								{socialLinks.mail && (
 									<NavItem>
 										<NavLink
 											rel="noopener"
-											aria-label="Twitter"
+											aria-label="Email"
 											className="nav-link-icon"
-											href={socialLinks.twitter}
+											href={socialLinks.mail}
 											target="_blank"
 										>
-											<i className="fa fa-twitter-square" />
+											<i className="fa fa-envelope" />
 											<span className="nav-link-inner--text d-lg-none ml-2">
-												Twitter
+												Email
 											</span>
 										</NavLink>
 									</NavItem>

@@ -1,43 +1,101 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Aniket Gawade",
+	title: "Hi all, I'm Aniket",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I am an aspiring engineer who enjoys connecting the dots: be it ideas from different disciplines, people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering, object-oriented programming, and machine learning. My passion lies in solving business problems with tailored data and algorithms and communicating complex ideas to non-technical stakeholders. I am able to jump across verticals to deliver high-performing solutions.",
 	resumeLink:
 		"https://drive.google.com/file/d/1WD21Y1fzGmdKY6R8lrK01X4YH9RBUxOa/view?usp=sharing",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "Aniket-gawade",
 };
 
 export const contact = {};
 
 export const socialLinks = {
 	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/__hanzla100",
+	instagram: "https://www.instagram.com/aniket.gawade.45/",
 	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	github: "https://github.com/Aniket-gawade",
+	linkedin: "https://www.linkedin.com/in/aniket-gawade/",
+	mail: "mailto:apgawade822@gmailcom"
 };
 
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+		"CRAZY SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
 	data: [
 		{
-			title: "Full Stack Development",
+			title: "Android Development",
+			lottieAnimationFile: "/lottie/skills/android.json", // Path of Lottie Animation JSON File
+			skills: [
+				emoji("⚡ Experience in developing Android Projects using Java & XML"),
+				emoji(
+					"⚡ Experience in integrating Firebase services like Realtime Database, Firebase Storage, Firebase Authentication"
+				),
+				emoji(
+					"⚡ Experience in handling API calls using Retrofit and Volley"
+				),
+				
+			],
+			softwareSkills: [
+				// ? Check README To get icon details
+				{
+					skillName: "Android Studio",
+					fontAwesomeClassname: "logos:android-icon",
+				},
+				{
+					skillName: "JAVA",
+					fontAwesomeClassname: "logos:java",
+				},
+				{
+					skillName: "Python",
+					fontAwesomeClassname: "logos:python",
+				},
+				{
+					skillName: "TFLite",
+					fontAwesomeClassname: "logos:tensorflow",
+				},
+				{
+					skillName: "Github",
+					fontAwesomeClassname: "akar-icons:github-fill",
+				},
+				{
+					skillName: "Git",
+					fontAwesomeClassname: "logos:git-icon",
+				},
+				{
+					skillName: "Firebase",
+					fontAwesomeClassname: "logos:firebase",
+				},
+				{
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql",
+				},
+				{
+					skillName: "SQLite",
+					fontAwesomeClassname: "logos:sqlite",
+				},
+				// {
+				// 	skillName: "",
+				// 	fontAwesomeClassname: "logos:sentry-icon",
+				// },
+			],
+		},
+		{
+			title: "Web Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Beginner in developing Web Projects using HTML, CSS, JavaScript, ReactJS, NodeJS, ExpressJS"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Building responsive static websites using ReactJS"),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Integration of third party services such as Firebase, MongoDB, etc"
 				),
 			],
 			softwareSkills: [
@@ -58,106 +116,55 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 				},
 				{
-					skillName: "Nextjs",
-					fontAwesomeClassname: "vscode-icons:file-type-light-next",
+					skillName: "Laravel",
+					fontAwesomeClassname: "logos:laravel",
 				},
 				{
 					skillName: "Python",
 					fontAwesomeClassname: "logos:python",
 				},
 				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
+					skillName: "PHP",
+					fontAwesomeClassname: "logos:php",
 				},
 
-				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
-				},
-				{
-					skillName: "NPM",
-					fontAwesomeClassname: "logos:npm-icon",
-				},
-				{
-					skillName: "Yarn",
-					fontAwesomeClassname: "logos:yarn",
-				},
-			],
-		},
-		{
-			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
-			],
-			softwareSkills: [
-				// ? Check README To get icon details
-				{
-					skillName: "AWS",
-					fontAwesomeClassname: "logos:aws",
-				},
-				{
-					skillName: "Azure",
-					fontAwesomeClassname: "logos:microsoft-azure",
-				},
-				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
 				{
 					skillName: "Github",
 					fontAwesomeClassname: "akar-icons:github-fill",
 				},
 				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
+					skillName: "Git",
+					fontAwesomeClassname: "logos:git-icon",
 				},
 				{
-					skillName: "Github Actions",
-					fontAwesomeClassname: "logos:github-actions",
+					skillName: "Firebase",
+					fontAwesomeClassname: "logos:firebase",
 				},
 				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql",
 				},
 			],
 		},
+		
 		{
 			title: "Blockchain",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+					"⚡ Beginner in developing Smart Contract using Solidity & Ethereum"
 				),
+				// emoji(
+				// 	"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+				// ),
+				// emoji(
+				// 	"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+				// ),
+				// emoji(
+				// 	"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
+				// ),
 				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+					"⚡ Building Dapps with React.js & Solidity using Web3.js"
 				),
 			],
 			softwareSkills: [
@@ -188,120 +195,164 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
+		Stack: "Data structure and Algorithms / Java", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
 	},
 	{
-		Stack: "Backend",
+		Stack: "Android Development",
 		progressPercentage: "70",
 	},
 	{
-		Stack: "Programming",
+		Stack: "Web Development",
 		progressPercentage: "60",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
-		grade: "Grade A",
+		schoolName: "Sardar Patel Institute of Technology",
+		subHeader: "Bachelor of Engineering in Electronics and Telecommunication Engineering",
+		duration: "August 2019 - June 2023",
+		desc: "Programming Coursework: Data Structures and Algorithms, Object Oriented Programming, Database Management Systems, Computer Networks, Computer Organization, Computer Architecture, Operating Systems, Artificial Intelligence, Machine Learning,",
+		grade: "CGPA: 8.7",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			// "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
+			// "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		],
 	},
 ];
 
+export const codingProfiles = [
+	{
+		site: "LeetCode",
+		sitelogo: "/img/icons/common/LeetCode_logo_black.png",
+		link: "https://leetcode.com/shrinkwrap/",
+		desc: "Solved 600+ problems",
+	},
+	{
+		site: "GeeksForGeeks",
+		sitelogo: "/img/icons/common/gfg_logo.png",
+		link: "https://auth.geeksforgeeks.org/user/shrink_wrap/profile",
+		desc: "Solved 250+ problems",
+	},
+	{
+		site: "BinarySearch",
+		sitelogo: "/img/icons/common/BinarySearch_logo.png",
+		link: "https://binarysearch.com/@/Aniket-gawade",
+		desc: "Solved 300+ problems",
+	},
+	{
+		site: "CodeChef",
+		sitelogo: "/img/icons/common/codeChef_logo.png",
+		link: "https://www.codechef.com/users/aniketgawade",
+		desc: "3 Star Coder with rating 1650",
+	},
+]
+
 export const experience = [
 	{
-		role: "Frontend Developer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+		role: "Software Project Developer",
+		company: "Sardar Patel Institute of Technology",
+		companylogo: "/img/icons/common/spit_logo.jpg",
+		date: "Jan 2022 – Jun 2022",
+		descBullets: [
+			"Developed a website for music recommendations based on speech emotions.",
+			"Trained a machine learning model (MLPClassifier) for speech recognition and achieved 83% accuracy.",
+			"Established a system that recommends Songs based on speech emotions",
+			"Leveraged Knowledge in Laravel, Python, PHP, Firebase.",
+		],
 	},
-	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
-	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	},
+	// {
+	// 	role: "API Engineer",
+	// 	company: "Duseca Software",
+	// 	companylogo: "/img/icons/common/dusecaSoftware.jpg",
+	// 	date: "Jan 2022 – Mar 2022",
+	// 	desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+	// 	// descBullets: [
+	// 	// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+	// 	// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+	// 	// ],
+	// },
+	// {
+	// 	role: "Full Stack Developer",
+	// 	company: "Bleed-AI",
+	// 	companylogo: "/img/icons/common/bleedAI.jpg",
+	// 	date: "Sept 2021 - Oct 2021",
+	// 	desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+	// },
+	// {
+	// 	role: "Backend Developer",
+	// 	company: "Wapidu",
+	// 	companylogo: "/img/icons/common/wapidu.jpg",
+	// 	date: "Sept 2021",
+	// 	desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+	// },
 ];
 
 export const projects = [
 	{
-		name: "developer-portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Ummid:  Disaster Management App",
+		desc: "Umeed is an Application which can help people in distress due to natural disasters such as earthquakes, landslides, fires, etc. Our app is based on the following 4 phases : mitigation, preparedness, response and recovery.",
+		github: "https://github.com/Aniket-gawade/Umeed_Disaster_Management.git",
+		link: "https://drive.google.com/file/d/12F6GspT7ml6pC7sp_zXPcxhmim6_Jwsv/view?usp=sharing",
 	},
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
+		name: "Car Assistant",
+		desc: "Created a utility application for real-time detection of objects like cars, pedestrians, motorcycles, traffic signals, etc. It warns users when it crosses a safe distance by making a warning sound",
+		github: "https://github.com/Aniket-gawade/Car_Assistant.git",
+		link: "https://drive.google.com/file/d/1Xj6QDQvzoKJb2qfCRuoctrgF0x54mCd7/view?usp=sharing",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
+		name: "JeevAyush: AYUSH Hospitals Finder",
+		desc: "Built a 3 interface AYUSH services locator application with a complete end to end appointment booking system and a Chatbot to resolve queries related to AYUSH services.",
+		github: "https://github.com/Aniket-gawade/JeevAyush.git",
+		link: "https://drive.google.com/file/d/1F45j3Ky79M8NCQ7ISrNg_Pz5bjVOtGpN/view?usp=sharing",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		github: "https://github.com/1hanzla100/Django-ecommerce",
+		name: "Self Driving Car",
+		desc: "Steering angle prediction and detecting obstacles in real time and implemented an alert system with a traffic light color detector to take the necessary action.",
+		github: "https://github.com/dylan-007/Self-driving-cars.git",
 	},
 ];
 
 export const feedbacks = [
 	{
-		name: "John Smith",
+		name: "Smart India Hackathon 2022",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"I am smart India hackathon 2022 finalist. During this hackathon, my team Built a 3 interface AYUSH services locator application with a complete end to end appointment booking system and a Chatbot to resolve queries related to AYUSH services.",
 	},
 	{
-		name: "John Smith",
+		name: "E-Yantra robotics competition 2021",
 		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+			"I was among the top 15 teams across India in the E-Yantra robotics competition 2021 organized by IIT Bombay. In this competition, I built an algorithm for multiple robot coordination in an arena to perform tasks such as sowing and weeding.",
+	},
+	{
+		name: "Google Hashcode 2022.",
+		feedback:
+			"Secured a global Rank of 2383 out of 72000 in Google Hashcode 2022.",
+	},
+	{
+		name: "1000+ DSA Problems",
+		feedback:
+			"Solved 1000+ DSA questions across coding platforms, including 500+ on Leetcode.",
 	},
 ];
 
 // See object prototype on SEO.jsx page
 export const seoData = {
-	title: "Hanzla Tauqeer",
+	title: "Aniket Gawade",
 	description:
 		"A passionate Full Stack Web Developer and Blockchain Developer.",
 	author: "Hanzla Tauqeer",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	image: "https://avatars.githubusercontent.com/u/60391607?v=4",
 	url: "https://developer-portfolio-1hanzla100.vercel.app",
 	keywords: [
-		"Hanzla",
-		"Hanzla Tauqeer",
-		"@1hanzla100",
-		"1hanzla100",
+		"Aniket",
+		"Aniket Gawade",
+		"@Aniket-gawade",
+		"Aniket-gawade",
 		"Portfolio",
-		"Hanzla Portfolio ",
-		"Hanzla Tauqeer Portfolio",
+		"Aniket Portfolio ",
+		"Aniket Gawade Portfolio",
 	],
 }

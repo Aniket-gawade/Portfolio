@@ -7,7 +7,7 @@ import { socialLinks } from "../portfolio";
 const SocialLinks = () => {
 	return (
 		<div className="btn-wrapper text-lg">
-			{socialLinks.facebook && (
+			{/* {socialLinks.facebook && (
 				<Button
 					className="btn-icon-only rounded-circle ml-1"
 					color="facebook"
@@ -20,7 +20,7 @@ const SocialLinks = () => {
 						<i className="fa fa-facebook-square" />
 					</span>
 				</Button>
-			)}
+			)} */}
 			{socialLinks.instagram && (
 				<Button
 					className="btn-icon-only rounded-circle ml-1"
@@ -66,14 +66,15 @@ const SocialLinks = () => {
 			{socialLinks.twitter && (
 				<Button
 					className="btn-icon-only rounded-circle"
-					color="twitter"
-					href={socialLinks.twitter}
+					color="facebook"
+					href={socialLinks.mail}
 					target="_blank"
 					rel="noopener"
-					aria-label="Twitter"
+					aria-label="Email"
 				>
 					<span className="btn-inner--icon">
-						<i className="fa fa-twitter" />
+						{/* <i className="fa fa-twitter" /> */}
+						<i className="fa fa-envelope" />
 					</span>
 				</Button>
 			)}
