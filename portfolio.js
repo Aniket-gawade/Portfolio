@@ -19,7 +19,7 @@ export const socialLinks = {
 	instagram: "https://www.instagram.com/aniket.gawade.45/",
 	github: "https://github.com/Aniket-gawade",
 	linkedin: "https://www.linkedin.com/in/aniket-gawade/",
-	mail: "mailto:apgawade822@gmailcom"
+	mail: "mailto:apgawade822@gmail.com"
 };
 
 export const skillsSection = {
@@ -290,7 +290,7 @@ export const experience = [
 export const projects = [
 	{
 		name: "Ummid:  Disaster Management App",
-		desc: "Umeed is an Application which can help people in distress due to natural disasters such as earthquakes, landslides, fires, etc. Our app is based on the following 4 phases : mitigation, preparedness, response and recovery.",
+		desc: "Ummid is an Application which can help people in distress due to natural disasters such as earthquakes, landslides, fires, etc. Our app is based on the following 4 phases : mitigation, preparedness, response and recovery.",
 		github: "https://github.com/Aniket-gawade/Umeed_Disaster_Management.git",
 		link: "https://drive.google.com/file/d/12F6GspT7ml6pC7sp_zXPcxhmim6_Jwsv/view?usp=sharing",
 	},
@@ -340,8 +340,8 @@ export const feedbacks = [
 export const seoData = {
 	title: "Aniket Gawade",
 	description:
-		"A passionate Full Stack Web Developer and Blockchain Developer.",
-	author: "Hanzla Tauqeer",
+		"A passionate Software Developer.",
+	author: "Aniket Gawade",
 	image: "https://avatars.githubusercontent.com/u/60391607?v=4",
 	url: "https://aniket-gawade-portfolio.herokuapp.com/",
 	keywords: [
