@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I am an aspiring engineer who enjoys connecting the dots: be it ideas from different disciplines people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering, object-oriented programming and machine learning. My passion lies in solving business problems with tailored data and algorithms and communicating complex ideas to non-technical stakeholders. I am able to jump across verticals to deliver high-performing solutions.",
 	resumeLink:
-		"https://drive.google.com/file/d/1WD21Y1fzGmdKY6R8lrK01X4YH9RBUxOa/view?usp=sharing",
+		"https://drive.google.com/file/d/1f0ChJ_zu57sOr4HU0qIxQGYXsP8v8M_p/view?usp=sharing",
 };
 
 export const openSource = {
