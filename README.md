@@ -9,7 +9,7 @@
   </kbd>
 </p>
 
-## To view a live example, **[click here](https://aniket-gawade-portfolio.herokuapp.com/)**.
+## To view a live example, **[click here](https://aniket-gawade.vercel.app/)**.
 
 Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
 
