@@ -7,7 +7,8 @@ export const greetings = {
 		"I am an aspiring engineer who enjoys connecting the dots: be it ideas from different disciplines people from different teams, or applications from different industries. I have strong technical skills and an academic background in engineering, object-oriented programming and machine learning. My passion lies in solving business problems with tailored data and algorithms and communicating complex ideas to non-technical stakeholders. I am able to jump across verticals to deliver high-performing solutions.",
 	resumeLink:
 		//"https://drive.google.com/file/d/1f0ChJ_zu57sOr4HU0qIxQGYXsP8v8M_p/view?usp=sharing",
-		"https://drive.google.com/file/d/1w7F2FY7IaUSj0qzvo_hNuAU3qRNtFrky/view?usp=sharing"
+		//"https://drive.google.com/file/d/1w7F2FY7IaUSj0qzvo_hNuAU3qRNtFrky/view?usp=sharing",
+		"https://drive.google.com/file/d/1X3qp0i6X1rsO_wiCFjOu-T6pBHOsi3Ix/view?usp=sharing",
 };
 
 export const openSource = {
@@ -213,7 +214,7 @@ export const educationInfo = [
 		subHeader: "Bachelor of Engineering in Electronics and Telecommunication Engineering",
 		duration: "August 2019 - June 2023",
 		desc: "Programming Coursework: Data Structures and Algorithms, Object Oriented Programming, Database Management Systems, Computer Networks, Computer Organization, Computer Architecture, Operating Systems, Artificial Intelligence, Machine Learning,",
-		grade: "CGPA: 8.7",
+		grade: "CGPA: 8.85",
 		descBullets: [
 			// "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
 			// "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -226,7 +227,7 @@ export const codingProfiles = [
 		site: "LeetCode",
 		sitelogo: "/img/icons/common/LeetCode_logo_black.png",
 		link: "https://leetcode.com/shrinkwrap/",
-		desc: "Solved 600+ problems",
+		desc: "Solved 700+ problems",
 	},
 	{
 		site: "GeeksForGeeks",
