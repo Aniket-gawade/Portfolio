@@ -8,7 +8,8 @@ export const greetings = {
 	resumeLink:
 		//"https://drive.google.com/file/d/1f0ChJ_zu57sOr4HU0qIxQGYXsP8v8M_p/view?usp=sharing",
 		//"https://drive.google.com/file/d/1w7F2FY7IaUSj0qzvo_hNuAU3qRNtFrky/view?usp=sharing",
-		"https://drive.google.com/file/d/1X3qp0i6X1rsO_wiCFjOu-T6pBHOsi3Ix/view?usp=sharing",
+		// "https://drive.google.com/file/d/1X3qp0i6X1rsO_wiCFjOu-T6pBHOsi3Ix/view?usp=sharing",
+		"https://drive.google.com/file/d/19cBYiOEHYYnWCXRYp_RsHV9TnYeOYr0F/view?usp=sharing",
 };
 
 export const openSource = {
@@ -195,8 +196,12 @@ export const skillsSection = {
 
 export const SkillBars = [
 	{
-		Stack: "Data structure and Algorithms / Java", //Insert stack or technology you have experience in
+		Stack: "Data structure and Algorithm", //Insert stack or technology you have experience in
 		progressPercentage: "90", //Insert relative proficiency in percentage
+	},
+	{
+		Stack: "Java",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Android Development",
@@ -213,7 +218,7 @@ export const educationInfo = [
 		schoolName: "Sardar Patel Institute of Technology",
 		subHeader: "Bachelor of Engineering in Electronics and Telecommunication Engineering",
 		duration: "August 2019 - June 2023",
-		desc: "Programming Coursework: Data Structures and Algorithms, Object Oriented Programming, Database Management Systems, Computer Networks, Computer Organization, Computer Architecture, Operating Systems, Artificial Intelligence, Machine Learning,",
+		desc: "Programming Coursework: Data Structures and Algorithms, Object Oriented Programming, Database Management Systems, Computer Networks, Computer Organization, Computer Architecture, Operating Systems, Artificial Intelligence, Machine Learning, Blockchain",
 		grade: "CGPA: 8.85",
 		descBullets: [
 			// "Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
@@ -236,10 +241,10 @@ export const codingProfiles = [
 		desc: "Solved 250+ problems",
 	},
 	{
-		site: "BinarySearch",
-		sitelogo: "/img/icons/common/BinarySearch_logo.png",
-		link: "https://binarysearch.com/@/Aniket-gawade",
-		desc: "Solved 300+ problems",
+		site: "Hackerrank",
+		sitelogo: "/img/icons/common/HackerRank_Icon.png",
+		link: "https://www.hackerrank.com/aniket_gawade",
+		desc: "5 Star Coder",
 	},
 	{
 		site: "CodeChef",
@@ -291,6 +296,12 @@ export const experience = [
 
 export const projects = [
 	{
+		name: "Cafeteria Rush Estimator",
+		desc: "Created a cafeteria footfall predictor application with inventory management and revenue prediction features. Created a Virtual Assistant using IBM Cloud Functions to assist by giving key information to the cafeteria owner.",
+		github: "https://github.com/Aniket-gawade/SBSPS-Challenge-9305-Rush-Estimator-for-Corporate-Cafeteria",
+		link: "https://ibm-rush-estimator.vercel.app/",
+	},
+	{
 		name: "Ummid:  Disaster Management App",
 		desc: "Ummid is an Application which can help people in distress due to natural disasters such as earthquakes, landslides, fires, etc. Our app is based on the following 4 phases : mitigation, preparedness, response and recovery.",
 		github: "https://github.com/Aniket-gawade/Umeed_Disaster_Management.git",
@@ -316,26 +327,32 @@ export const projects = [
 ];
 
 export const feedbacks = [
+
 	{
-		name: "Smart India Hackathon 2022",
+		name: "Winner - IBM Hack Challenge 2022",
 		feedback:
-			"I am smart India hackathon 2022 finalist. During this hackathon, my team Built a 3 interface AYUSH services locator application with a complete end to end appointment booking system and a Chatbot to resolve queries related to AYUSH services.",
+			"Pan-India Hackathon organized by IBM. Developed solution for cafeteria owners to estimate footfall and improve their businesses by providing revenue prediction and inventory management system.",
 	},
 	{
-		name: "E-Yantra robotics competition 2021",
+		name: "Finalist -  Smart India Hackathon 2022",
 		feedback:
-			"I was among the top 15 teams across India in the E-Yantra robotics competition 2021 organized by IIT Bombay. In this competition, I built an algorithm for multiple robot coordination in an arena to perform tasks such as sowing and weeding.",
+			"Progressed to the finals of S.I.H., largest hackathon organized by Government of India.Provided solution to problem statement given by Ministry of AYUSH (ministry responsible for developing research and propagation of traditional medicines in India).",
 	},
 	{
-		name: "Google Hashcode 2022.",
+		name: "Top 15 teams - E-Yantra robotics competition 2021",
 		feedback:
-			"Secured a global Rank of 2383 out of 72000 in Google Hashcode 2022.",
+			"Among top 15 teams in India. Developed a functional weeder robots which can remove weed from the field of crops and can be used for sowings and harvesting. Make use of A start algorithm for path planning and PID controller for motion control.",
 	},
 	{
-		name: "1000+ DSA Problems",
+		name: "Global Rank 2382 - Google Hashcode 2022.",
 		feedback:
-			"Solved 1000+ DSA questions across coding platforms, including 500+ on Leetcode.",
+			"Ranked 2382 globally out of 10000 teams who could achieve a non-zero score. Google Hashcode is a programming competition where teams have to provide solution to an engieering problem.",
 	},
+	// {
+	// 	name: "1000+ DSA Problems",
+	// 	feedback:
+	// 		"Solved 1000+ DSA questions across coding platforms, including 500+ on Leetcode.",
+	// },
 ];
 
 // See object prototype on SEO.jsx page
