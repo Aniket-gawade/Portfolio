@@ -9,7 +9,8 @@ export const greetings = {
 		//"https://drive.google.com/file/d/1f0ChJ_zu57sOr4HU0qIxQGYXsP8v8M_p/view?usp=sharing",
 		//"https://drive.google.com/file/d/1w7F2FY7IaUSj0qzvo_hNuAU3qRNtFrky/view?usp=sharing",
 		// "https://drive.google.com/file/d/1X3qp0i6X1rsO_wiCFjOu-T6pBHOsi3Ix/view?usp=sharing",
-		"https://drive.google.com/file/d/19cBYiOEHYYnWCXRYp_RsHV9TnYeOYr0F/view?usp=sharing",
+		// "https://drive.google.com/file/d/19cBYiOEHYYnWCXRYp_RsHV9TnYeOYr0F/view?usp=sharing",
+		"https://drive.google.com/file/d/1whwkAxK_9sYZUW02hrYkUqhYcar1P8G4/view?usp=sharing",
 };
 
 export const openSource = {
