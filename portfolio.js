@@ -10,7 +10,8 @@ export const greetings = {
 		//"https://drive.google.com/file/d/1w7F2FY7IaUSj0qzvo_hNuAU3qRNtFrky/view?usp=sharing",
 		// "https://drive.google.com/file/d/1X3qp0i6X1rsO_wiCFjOu-T6pBHOsi3Ix/view?usp=sharing",
 		// "https://drive.google.com/file/d/19cBYiOEHYYnWCXRYp_RsHV9TnYeOYr0F/view?usp=sharing",
-		"https://drive.google.com/file/d/1whwkAxK_9sYZUW02hrYkUqhYcar1P8G4/view?usp=sharing",
+		//"https://drive.google.com/file/d/1whwkAxK_9sYZUW02hrYkUqhYcar1P8G4/view?usp=sharing",
+		"https://drive.google.com/file/d/1UYyJJXA5WX92s6m6xWSyPS55o0wmXsGQ/view?usp=sharing",
 };
 
 export const openSource = {
@@ -232,14 +233,14 @@ export const codingProfiles = [
 	{
 		site: "LeetCode",
 		sitelogo: "/img/icons/common/LeetCode_logo_black.png",
-		link: "https://leetcode.com/shrinkwrap/",
-		desc: "Solved 700+ problems",
+		link: "https://leetcode.com/AniketG822/",
+		desc: "Solved 750+ problems",
 	},
 	{
 		site: "GeeksForGeeks",
 		sitelogo: "/img/icons/common/gfg_logo.png",
 		link: "https://auth.geeksforgeeks.org/user/shrink_wrap/profile",
-		desc: "Solved 250+ problems",
+		desc: "Solved 300+ problems",
 	},
 	{
 		site: "Hackerrank",
@@ -348,6 +349,16 @@ export const feedbacks = [
 		name: "Global Rank 2382 - Google Hashcode 2022.",
 		feedback:
 			"Ranked 2382 globally out of 10000 teams who could achieve a non-zero score. Google Hashcode is a programming competition where teams have to provide solution to an engieering problem.",
+	},
+	{
+		name: "Knight with 1883 rating - Leetcode",
+		feedback:
+		"Awarded the knight batch on LeetCode, a prestigious recognition given to top-performing members of the community, for consistently ranking among the top 5% and solving over 750 problems.",
+	},
+	{
+		name: "Institutional rank 4 - GeeksforGeeks",
+		feedback:
+		"Achieved institutional rank 4 among the 1227 Registered Geeks on GeeksforGeeks, a leading online platform for computer science students and professionals, for consistently solving over 300 problems."
 	},
 	// {
 	// 	name: "1000+ DSA Problems",
