@@ -58,7 +58,7 @@ const CodingProfileCard = ({ data }) => {
                             color="success"
                             href={data.link}
                             target="_blank"
-                            rel="noopener" aria-label="Twitter"
+                            rel="noopener" aria-label="Visit Profile"
                         >
                             <span className="btn-inner--icon">
                                 <i className="fa fa-arrow-right mr-2" />

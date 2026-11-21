@@ -1,110 +1,110 @@
-<h1 align="center">Welcome to developer-portfolio 👋</h1>
-<!-- <a href="https://github.com/1hanzla100/developer-portfolio/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/1hanzla100/developer-portfolio"></a><a href="https://github.com/1hanzla100/developer-portfolio/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/1hanzla100/developer-portfolio"></a> <a href="https://github.com/1hanzla100/developer-portfolio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/1hanzla100/developer-portfolio"></a> -->
-
-## Software Developer Portfolio Template built with Next.js, bootstrap that helps you showcase your work and skills as a software developer.
+<h1 align="center">Aniket Gawade — Developer Portfolio 🚀</h1>
 
 <p align="center">
-  <kbd>
-    <img src="https://github.com/Aniket-gawade/Portfolio/blob/master/picture.PNG"></img>
-  </kbd>
+  <strong>Senior Analyst & Java Developer | OEMS & Trading Systems</strong><br>
+  Personal developer portfolio website built with Next.js, React, and Bootstrap.
 </p>
 
-## To view a live example, **[click here](https://aniket-gawade.vercel.app/)**.
+<p align="center">
+  <a href="https://aniket-gawade.vercel.app/">
+    <img src="https://img.shields.io/badge/Live_Site-aniket--gawade.vercel.app-11cdef?style=for-the-badge&logo=vercel" alt="Live Site">
+  </a>
+  <a href="https://www.linkedin.com/in/aniket-gawade/">
+    <img src="https://img.shields.io/badge/LinkedIn-Aniket_Gawade-0077b5?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/Aniket-gawade">
+    <img src="https://img.shields.io/badge/GitHub-Aniket--gawade-24292e?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://leetcode.com/u/AniketG822/">
+    <img src="https://img.shields.io/badge/LeetCode-Knight_1880+-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
+  </a>
+</p>
 
-Just Edit `portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
+---
 
-<!-- But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/1hanzla100/developer-portfolio/issues).
+## 🌐 Live Website
 
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/1hanzla100/developer-portfolio/pulls). -->
+👉 **[https://aniket-gawade.vercel.app/](https://aniket-gawade.vercel.app/)**
 
+---
 
-## Sections
+## 📖 Overview
 
-✔️ Summary and About me\
-✔️ Skills\
-✔️ Education\
-✔️ Work Experience\
-✔️ Achievements\
-✔️ Projects\
-✔️ Github Profile
+This portfolio showcases professional experience, engineering projects, core technical proficiencies, awards, and coding achievements.
 
-## Getting Started
+### Key Sections:
+- **Hero & Summary:** Background in order-management and trade-execution software at Clearwater Analytics, serving 900+ investment managers.
+- **Work Experience:** Detailed contributions as Sr. Analyst & Analyst (OEMS) — stock-borrow connectors, FIX protocol simulators, Hamilton reservation algorithms, and production performance tuning.
+- **Skills:** Categorized into Backend Development (Java 17/25, Spring Boot, Hibernate/JPA), Messaging & FIX (QuickFIX/J, ActiveMQ, FIXatdl), and DevOps, Security & Testing (OAuth 2.0 / mTLS, Docker, CI/CD, JUnit 5, Playwright).
+- **Projects:** Flagship OEMS platform alongside hackathon-winning solutions (Cafeteria Rush Estimator, JeevAyush, Ummid Disaster Management).
+- **Education:** Sardar Patel Institute of Technology (SPIT, Mumbai) — B.Tech in Electronics & Telecommunication (CGPA: 8.92).
+- **Awards & Achievements:** LeetCode Knight (top 5% globally, 800+ solved), Winner of IBM Hack Challenge 2022 (20,000+ teams), and Smart India Hackathon Grand Finalist.
+- **Coding Profiles:** Live links and statistics across LeetCode, GeeksforGeeks, HackerRank, and CodeChef.
+- **Contact:** One-click links to reach out via Email, LinkedIn, GitHub, and Instagram.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+---
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer.
-<br>
-**For Windows** Install Visual C++ Build Environment: [Visual Studio Build Tools](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools)
+## 🛠️ Tech Stack
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
-```
+- **Framework:** [Next.js](https://nextjs.org/) (Pages Router, SSG)
+- **UI & Layout:** [Reactstrap](https://reactstrap.github.io/) & [Bootstrap 5](https://getbootstrap.com/)
+- **Design System:** Argon Design System
+- **Animations:** [Lottie](https://airbnb.io/lottie/) & [react-reveal](https://www.react-reveal.com/)
+- **Icons:** [Iconify](https://iconify.design/), [Font Awesome](https://fontawesome.com/), and Nucleo Icons
+- **Deployment:** [Vercel](https://vercel.com/)
 
-## How To Use
+---
 
-From your command line, clone and run developer-portolio:
+## 🚀 Getting Started Locally
 
-```bash
-# Clone this repository
-$ git clone https://github.com/Aniket-gawade/Portfolio.git
+### Prerequisites
+- [Node.js](https://nodejs.org/) (`>= 16.x`)
+- [Yarn](https://yarnpkg.com/) (`>= 1.22.x`) or npm
 
-# Go into the repository
-$ cd developer-portfolio
+### Installation & Local Run
 
-# Install dependencies
-$ yarn
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Aniket-gawade/Portfolio.git
+   cd Portfolio
+   ```
 
-#Start's development server
-$ yarn dev
-```
+2. **Install dependencies:**
+   ```bash
+   yarn install
+   ```
 
-## Linking Portfolio to Github
+3. **Start the local development server:**
+   ```bash
+   yarn dev
+   ```
+   Open **[http://localhost:3000](http://localhost:3000)** in your browser.
 
-```javascript
-  //  portfolio.js
-  githubUserName: 'YOUR GITHUB USERNAME HERE',
-```
+4. **Build for production:**
+   ```bash
+   yarn build
+   yarn start
+   ```
 
-#### Using Emojis
+---
 
-For adding emoji 😃 into the texts in `Portfolio.js`, use the `emoji()` function and pass the text you need as an argument. This would help in keeping emojis compatible across different browsers and platforms.
+## ⚙️ Customization
 
-## Technologies Used
+All personal information, experience, projects, skills, and links are managed from a single configuration file:
+- **`portfolio.js`**: Update this file to update the site's content.
 
--   [Next.js](https://nextjs.org/)
--   [axios](https://www.npmjs.com/package/axios)
--   [reactstrap](https://reactstrap.github.io/)
--   [react-reveal](https://www.react-reveal.com/)
--   [react-lottie](https://www.npmjs.com/package/react-lottie)
--   [react-easy-emoji](https://github.com/appfigures/react-easy-emoji)
--   [react-headroom](https://github.com/KyleAMathews/react-headroom)
--   [color-thief](https://github.com/lokesh/color-thief)
+---
 
-## Illustrations
+## 👤 Author
 
--   [Lottie File Source](https://lottiefiles.com)
+**Aniket Gawade**
+- **LinkedIn:** [@aniket-gawade](https://www.linkedin.com/in/aniket-gawade/)
+- **GitHub:** [@Aniket-gawade](https://github.com/Aniket-gawade)
+- **LeetCode:** [@AniketG822](https://leetcode.com/u/AniketG822/)
+- **Email:** [apgawade822@gmail.com](mailto:apgawade822@gmail.com)
 
-## Icons
-Iconify Icons are used in skill section. You can find all the icons here: [Iconify](https://icon-sets.iconify.design/).
+---
 
-<!-- ## For the Future
+## 📄 License
 
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/1hanzla100/developer-portfolio/pulls).
-
--   Enable Dark Mode
-
--   Add More Sections
-
-## Author
-
-👤 **Hanzla Tauqeer**
-
--   Website: https://hanzla.netlify.app
--   Github: [@1hanzla100](https://github.com/1hanzla100)
--   LinkedIn: [@1hanzla100](https://linkedin.com/in/1hanzla100)
-
-## Show your support
-
-Give a ⭐️ if this project helped you! -->
+This project is licensed under the [MIT License](LICENSE).

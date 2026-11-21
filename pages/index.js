@@ -15,26 +15,26 @@ const GithubProfileCard = dynamic(() =>
 import { openSource } from "../portfolio";
 import SEO from "../components/SEO";
 
-export default function Home({ githubProfileData }) {
+export default function Home({ githubProfileData = {} }) {
 	return (
 		<div>
 			<SEO />
 			<Navigation />
 			<Greetings />
+			<Experience />
 			<Skills />
 			<Proficiency />
-			<CodingProfiles />
 			<Projects />
-			<Experience />
 			<Education />
 			<Feedbacks />
+			<CodingProfiles />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);
 }
 
-Home.prototype = {
-	githubProfileData: PropTypes.object.isRequired,
+Home.propTypes = {
+	githubProfileData: PropTypes.object,
 };
 
 export async function getStaticProps(_) {

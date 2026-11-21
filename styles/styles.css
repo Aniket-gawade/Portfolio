@@ -1,3 +1,7 @@
+body {
+	display: block !important;
+}
+
 body > div:first-child {
 	overflow-x: hidden;
 }
